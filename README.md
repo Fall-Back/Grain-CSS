@@ -18,16 +18,16 @@ So take for example a simple single column, sticy-footer page layout:
 ~~~
 <body class="flex-container  flex-container--column  padding-0">
 
-    <header class="padding-m  margin-0">
+    <header class="padding(m)  margin(0)">
         ...
     </header>
     
         
-    <main class="flex-grow-1  padding-m">
+    <main class="flex-grow(1)  padding(m)">
         ...
     </main>
     
-    <footer class="margin-0">
+    <footer class="margin(0)">
         ...
     </footer>
     

@@ -1,0 +1,58 @@
+//$namespace: '.ugc ';
+
+@import '_grain.scss';
+
+// Flex:
+.flex-container {
+    @include flex-container();
+}
+
+.flex-container--column {
+    @include flex-container--column();
+}
+
+.flex-container--wrap {
+    @include flex-container--wrap();
+}
+
+.flex-container--wrap-reverse {
+    @include flex-container--wrap-reverse();
+}
+
+
+// Margin:
+.margin\(0\) { @include margin(0) }
+.margin-t\(0\){ @include margin-t(0) };
+.margin-r\(0\){ @include margin-r(0) };
+.margin-b\(0\){ @include margin-b(0) };
+.margin-l\(0\){ @include margin-l(0) };
+.margin-h\(0\){ @include margin-h(0) };
+.margin-v\(0\){ @include margin-v(0) };
+@each $name, $spacing-unit in $spacing-units {
+    .margin\(#{$name}\){ @include margin($spacing-unit) };
+    .margin-t\(#{$name}\){ @include margin-t($spacing-unit) };
+    .margin-r\(#{$name}\){ @include margin-r($spacing-unit) };
+    .margin-b\(#{$name}\){ @include margin-b($spacing-unit) };
+    .margin-l\(#{$name}\){ @include margin-l($spacing-unit) };
+    .margin-h\(#{$name}\){ @include margin-h($spacing-unit) };
+    .margin-v\(#{$name}\){ @include margin-v($spacing-unit) };
+}
+
+// Padding:
+.padding\(0\) { @include padding(0) }
+.padding-t\(0\){ @include padding-t(0) };
+.padding-r\(0\){ @include padding-r(0) };
+.padding-b\(0\){ @include padding-b(0) };
+.padding-l\(0\){ @include padding-l(0) };
+.padding-h\(0\){ @include padding-h(0) };
+.padding-v\(0\){ @include padding-v(0) };
+@each $name, $spacing-unit in $spacing-units {
+    .padding\(#{$name}\){ @include padding($spacing-unit) };
+    .padding-t\(#{$name}\){ @include padding-t($spacing-unit) };
+    .padding-r\(#{$name}\){ @include padding-r($spacing-unit) };
+    .padding-b\(#{$name}\){ @include padding-b($spacing-unit) };
+    .padding-l\(#{$name}\){ @include padding-l($spacing-unit) };
+    .padding-h\(#{$name}\){ @include padding-h($spacing-unit) };
+    .padding-v\(#{$name}\){ @include padding-v($spacing-unit) };
+}
+

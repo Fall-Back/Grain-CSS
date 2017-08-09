@@ -1,0 +1,18 @@
+{
+    "name": "Grain-CSS",
+    "version": "0.0.1",
+    "homepage": "https://github.com/Fall-Back/Grain-CSS",
+    "authors": [
+        "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
+    ],
+    "description": "A granular CSS mixins for quick prototyping and usage by various CSS methods",
+    "main": "_grain.scss",
+    "ignore":[],
+    "keywords": [
+        "css"
+    ],
+    "license": "Apache",
+    "dependencies": {
+        "Fall-Back-Base": "https://github.com/Fall-Back/Start-CSS.git"
+    }
+}

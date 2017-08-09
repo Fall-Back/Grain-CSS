@@ -1,0 +1,37 @@
+/*! Grain-CSS. See SCSS file for documentation. */
+/*
+    Designed for use with the M3 [CSS Mustard Cut](https://github.com/Fall-Back/CSS-Mustard-Cut)
+    IE 10, 11
+    Edge
+    Chrome 29+, Opera 16+, Safari 6.1+, iOS 7+, Android ~4.4+
+    FF29+ 
+
+    Notes:
+
+    Already undecided about support level. M3 cut probably most realistic, and flexbox works, but
+    Start-CSS is meant for earlier version so it sort of seems a bit wierd to not have the same
+    support?
+
+*/
+/*------------------------------------------------------------------------------------------------*
+   FUNCTIONS AND CONSTRUCTION MIXINS
+   (These must come before the Setting, as the settings make use of some of these)
+
+\*------------------------------------------------------------------------------------------------*/
+/*@function calc-rem-from-px($px, $negative: false) {
+}*/
+/*@mixin mq($query) {
+}*/
+/*------------------------------------------------------------------------------------------------*
+    SETTINGS
+
+\*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*
+    GRAIN MIXINS
+
+\*------------------------------------------------------------------------------------------------*/
+/*! End Grain-CSS */
+.thing {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin-top: 0.75rem; }

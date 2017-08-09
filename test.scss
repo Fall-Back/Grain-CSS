@@ -1,0 +1,7 @@
+@import '_grain.scss';
+
+
+.thing {
+    @include padding-h(xl);
+    @include margin-t(s);
+}
